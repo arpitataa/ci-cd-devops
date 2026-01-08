@@ -1,4 +1,4 @@
-# ci-cd-devops
+PREREQUISITES:
 Here,
 1. we are provisioning aws services using Terraform.
 2. Connecting them into a ci/cd pipeline
@@ -70,6 +70,13 @@ GitHub (easy)
 CodeCommit (AWS Git)
 
 What happens?
-You push code.
+We push code.
 Pipeline detcts change.
 Pipeline starts running.
+
+What is CodeBuild?
+CodeBuild is a temporary machine that:
+Runs commands
+Builds your code
+Runs tests.
+
